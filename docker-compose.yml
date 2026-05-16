@@ -1,5 +1,6 @@
 services:
   app:
+    image: fabricioveronez/imersao-kube-news:v1
     build: .
     ports:
       - "8080:8080"

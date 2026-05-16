@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "kubernetes": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "-v",
+                "/home/fabricioveronez/.kube/config:/home/appuser/.kube/config:ro",
+                "mcp/kubernetes"
+            ]
+        }
+    }
+}
